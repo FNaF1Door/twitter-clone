@@ -12,7 +12,7 @@ export function LoginMain(): JSX.Element {
         <NextImage
           imgClassName='object-cover'
           blurClassName='bg-accent-blue'
-          src='/assets/Flod-banner.png'
+          src='https://flodwebuploadsui.itsmedxmon.repl.co/Flod.png'
           alt='Flod banner'
           layout='fill'
           useSkeleton
