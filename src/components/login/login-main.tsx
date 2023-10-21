@@ -12,29 +12,29 @@ export function LoginMain(): JSX.Element {
         <NextImage
           imgClassName='object-cover'
           blurClassName='bg-accent-blue'
-          src='/assets/twitter-banner.png'
-          alt='Twitter banner'
+          src='/assets/Flod-banner.png'
+          alt='Flod banner'
           layout='fill'
           useSkeleton
         />
         <i className='absolute'>
-          <CustomIcon className='h-96 w-96 text-white' iconName='TwitterIcon' />
+          <CustomIcon className='h-96 w-96 text-white' iconName='FlodIcon' />
         </i>
       </div>
       <div className='flex flex-col items-center justify-between gap-6 p-8 lg:items-start lg:justify-center'>
         <i className='mb-0 self-center lg:mb-10 lg:self-auto'>
           <CustomIcon
-            className='-mt-4 h-6 w-6 text-accent-blue lg:h-12 lg:w-12 dark:lg:text-twitter-icon'
-            iconName='TwitterIcon'
+            className='-mt-4 h-6 w-6 text-accent-blue lg:h-12 lg:w-12 dark:lg:text-Flod-icon'
+            iconName='FlodIcon'
           />
         </i>
-        <div className='flex max-w-xs flex-col gap-4 font-twitter-chirp-extended lg:max-w-none lg:gap-16'>
+        <div className='flex max-w-xs flex-col gap-4 font-Flod-chirp-extended lg:max-w-none lg:gap-16'>
           <h1
             className='text-3xl before:content-["See_what’s_happening_in_the_world_right_now."] 
                        lg:text-6xl lg:before:content-["Happening_now"]'
           />
           <h2 className='hidden text-xl lg:block lg:text-3xl'>
-            Join Twitter today.
+            Join Flod today.
           </h2>
         </div>
         <div className='flex max-w-xs flex-col gap-6 [&_button]:py-2'>
@@ -71,7 +71,7 @@ export function LoginMain(): JSX.Element {
             >
               By signing up, you agree to the{' '}
               <a
-                href='https://twitter.com/tos'
+                href='https://Flod.com/tos'
                 target='_blank'
                 rel='noreferrer'
               >
@@ -79,7 +79,7 @@ export function LoginMain(): JSX.Element {
               </a>{' '}
               and{' '}
               <a
-                href='https://twitter.com/privacy'
+                href='https://Flod.com/privacy'
                 target='_blank'
                 rel='noreferrer'
               >
@@ -87,7 +87,7 @@ export function LoginMain(): JSX.Element {
               </a>
               , including{' '}
               <a
-                href='https://help.twitter.com/rules-and-policies/twitter-cookies'
+                href='https://help.Flod.com/rules-and-policies/Flod-cookies'
                 target='_blank'
                 rel='noreferrer'
               >
