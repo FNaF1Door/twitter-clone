@@ -8,7 +8,7 @@ export default function Login(): JSX.Element {
   return (
     <div className='grid min-h-screen grid-rows-[1fr,auto]'>
       <SEO
-        title='Twitter - It’s what’s happening'
+        title='Flod - The new way to use social media.'
         description='From breaking news and entertainment to sports and politics, get the full story with all the live commentary.'
       />
       <LoginMain />
